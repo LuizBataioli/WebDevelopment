@@ -1,0 +1,58 @@
+header{
+    text-align: center;
+    background-color: #015958;
+    height: 100px;
+    color: white;
+    padding-top: 1%;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color:#008F8C;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 400px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.meu-div1{
+    background-image: url(../img/Ogrito.jpeg);
+    background-size: cover;
+    text-align:center;
+    flex: 1;
+    border: 1px solid black;
+    padding: 80px;
+    
+}
+.meu-div2{
+    background-image: url(../img/calculadora.jpeg);
+    background-size: cover;
+    text-align:center;
+    flex: 1;
+    border: 1px solid black;
+    padding: 80px;
+    
+}
+.container{
+    display: flex;
+    height: 450px;
+}
+
+footer{
+    background-color: #008F8C;
+    height: 70px;
+    text-align: center;
+    padding-top: 1px;
+}
