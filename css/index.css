@@ -3,7 +3,7 @@
     font-size: 14px;
     padding-right: 35px;
     text-align: right;
-    width: 140px;
+    width: 0,13671875%;
 }
 
 .menu-opcoes ui {
@@ -30,7 +30,7 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 940px;
+    width: 0,91796875%;
 }
 
 header {
