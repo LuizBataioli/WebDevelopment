@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax1 {
+    background-image: url('./imagem1.jpg');
+}
+
+.parallax2 {
+    background-image: url('imagem2.jpg');
+}
+
+.content {
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
