@@ -12,11 +12,11 @@ body, html {
 }
 
 .parallax1 {
-    background-image: url('./imagem1.jpg');
+    background-image: url('./img/imagem1.jpg');
 }
 
 .parallax2 {
-    background-image: url('imagem2.jpg');
+    background-image: url('./img/imagem2.jpg');
 }
 
 .content {

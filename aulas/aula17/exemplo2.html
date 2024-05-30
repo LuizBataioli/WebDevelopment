@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h2>Expressão com Angulas e elementos HTML</h2>
+        <p>A cor do fundo do input será igual a cor associada com o texto que o usuário digitar</p>
+    </div>
+    <div ng-app="" ng-init="cor='lightblue'">
+        <input style="background-color: {{cor}}" ng-model="cor" value="{{cor}}">
+        <p>Cor digitada: {{cor}}</p>
+        <span ng-init="quantidade=1;valor=5">
+            <p>Expressão numérica: <span style="background-color: {{cor}}">{{quantidade * valor}}</span></p>
+
+            <span ng-init="nome='Fulano'; sobrenome='de Tal'">
+                <p>Nome completo {{nome + " " + sobrenome}}</p>
+            </span>
+        </span>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+</body>
+</html>
