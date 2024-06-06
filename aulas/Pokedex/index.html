@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---Define o icone do site-->
+    <link rel="icon" href="./Incone/iconeSite.png">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Pokedex</title>
+</head>
+<body>
+
+    <main>
+
+        <img src="./Incone/squirtleTeste.png" alt="pokemon" class="pokemon__image">
+
+        <h1 class="pokemon_data">
+            <span class="pokemon_number">10</span> -
+            <span class="pokemon_name">Squirtle</span>
+        </h1>
+
+        <form class="form">
+            <input 
+            type="search"
+            class="input_search"
+            placeholder="Name or Number"
+            required
+            >
+            <!--Required bloqueia o input vazio-->
+        </form>
+
+        <div class="buttons">
+            <!-- &gt e &lt servem para o html não entender o < e > como caractere-->
+            <!--Link do site: https://www.freeformatter.com/html-entities.html-->
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">next &gt;</button>
+        </div>
+
+        <img src="./Imagens/pokedex.png" alt="pokedex" class="pokedex">
+
+    </main>
+
+</body>
+</html>
