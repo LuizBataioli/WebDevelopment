@@ -36,7 +36,7 @@ const fetchAlternativeData = async() => {
     return {
         name: 'Tata',
         id: '1026',
-        image: pokemonImage.src ='./icone/tata.jpeg',
+        image: pokemonImage.src ='./icone/tata.jpg',
         weight: pokemonWeight.innerHTML = '100 kg',
         type: pokemonType.innerHTML = 'Miau',
         sound: pokemonSound.src = './audio/miau2.mp3'
