@@ -18,6 +18,7 @@
 
     <title>Pokedex</title>
 </head>
+
 <body>
 
     <main>
@@ -27,15 +28,12 @@
         <h1 class="pokemon_data">
             <span class="pokemon_number"></span> -
             <span class="pokemon_name"></span>
-        </h1>
+            <p>Peso: <Span class="pokemon_peso"></Span></p>
+            <p>Tipo: <Span class="pokemon_tipo"></Span></p>
 
+        </h1>
         <form class="form">
-            <input 
-            type="search"
-            class="input_search"
-            placeholder="Name or Number"
-            required
-            >
+            <input type="search" class="input_search" placeholder="Name or Number" required>
             <!--Required bloqueia o input vazio-->
         </form>
 
@@ -46,9 +44,19 @@
             <button class="button btn-next">next &gt;</button>
         </div>
 
+
         <img src="./Imagens/pokedex.png" alt="pokedex" class="pokedex">
+
+        <audio class ='background_audio' autoplay>
+            <source src="./audio/themesMusic.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio class="pokemon_sound" autoplay>
+            <source src="" type="audio/ogg">
+        </audio>
 
     </main>
 
 </body>
+
 </html>
